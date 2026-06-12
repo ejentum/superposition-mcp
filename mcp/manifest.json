@@ -1,0 +1,41 @@
+{
+  "manifest_version": "0.2",
+  "name": "superposition-mcp",
+  "display_name": "Superposition",
+  "version": "0.1.0",
+  "description": "One keyless tool: state three POVs on your task, get one two-pole terrain map that shows which reading you have collapsed onto and what makes the other a real mistake. Deterministic, no LLM, no API key.",
+  "long_description": "Superposition counters premature collapse in agent reasoning. The agent states three points of view on its task (the task as given, the task as it understands it, what it infers the user wants); those POVs are a forcing function that surfaces its own framings. A frozen ket-notation map comes back as an external axis to reason them against. Selection is a transparent heuristic over an open CSV: no LLM, no embeddings, no key. The published engine is provably the deployed engine (byte-identical, drift-tested).",
+  "author": {
+    "name": "Ejentum",
+    "email": "info@ejentum.com",
+    "url": "https://ejentum.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ejentum/superposition-mcp"
+  },
+  "homepage": "https://github.com/ejentum/superposition-mcp",
+  "support": "https://github.com/ejentum/superposition-mcp/issues",
+  "license": "MIT",
+  "keywords": ["superposition", "premature-collapse", "metacognition", "agentic-ai", "keyless"],
+  "server": {
+    "type": "node",
+    "entry_point": "dist/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/dist/index.js"]
+    }
+  },
+  "tools": [
+    {
+      "name": "superposition",
+      "description": "State task / description / wants; get one two-pole map to locate which reading of the task you have collapsed onto."
+    }
+  ],
+  "compatibility": {
+    "platforms": ["darwin", "linux", "win32"],
+    "runtimes": {
+      "node": ">=18.0.0"
+    }
+  }
+}

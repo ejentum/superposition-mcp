@@ -1,0 +1,109 @@
+task_type,map
+code & debug,"REFERENT
+| the unit named in the report ⟩ —?— | the behavior observed at runtime ⟩
+which one is my referent — and if they live in different code, which code am I about to edit?"
+code & debug,"GOAL
+| the fix as stated ⟩ —?— | the intent behind the report ⟩
+which am I serving — and what in the report makes the other one wrong?"
+code & debug,"SCOPE
+| the call site in question ⟩ —?— | every site the pattern repeats ⟩
+which extent did the task set — and who decided the other was in or out?"
+code & debug,"CRITERIA
+| the check turning green ⟩ —?— | the failure not recurring ⟩
+which done am I building toward — and does reaching one reach the other here?"
+research & analysis,"REFERENT
+| the named case ⟩ —?— | the class it stands for ⟩
+which is my object — and which one will the findings actually be about?"
+research & analysis,"GOAL
+| the question as asked ⟩ —?— | the decision it feeds ⟩
+which am I answering — and what tells me the other isn't the real assignment?"
+research & analysis,"SCOPE
+| the sources in hand ⟩ —?— | the field they sit in ⟩
+which boundary am I working — and was the other excluded or just unmentioned?"
+research & analysis,"CRITERIA
+| a verdict delivered ⟩ —?— | the uncertainty mapped ⟩
+which counts as answered here — and does the asker want the other folded in or left out?"
+writing & creative,"REFERENT
+| the topic named ⟩ —?— | the occasion prompting it ⟩
+which is the piece about — and which one is the reader meant to meet?"
+writing & creative,"GOAL
+| the artifact specified ⟩ —?— | the effect sought ⟩
+which am I shaping — and where do the two stop producing each other?"
+writing & creative,"SCOPE
+| the section requested ⟩ —?— | the whole it sits in ⟩
+which extent owns my changes — and what happens at the seam with the other?"
+writing & creative,"CRITERIA
+| the brief satisfied ⟩ —?— | the reader moved ⟩
+which finish line is mine — and who says crossing one crosses the other?"
+communication & drafting,"REFERENT
+| the matter discussed ⟩ —?— | the standing it touches ⟩
+which is this message handling — and what does it do to the other on the way?"
+communication & drafting,"GOAL
+| the words I need sent ⟩ —?— | the reading they'll make ⟩
+which am I optimizing — and what does ignoring the other one cost?"
+communication & drafting,"SCOPE
+| this message ⟩ —?— | the thread it settles or stirs ⟩
+which am I writing — and does closing one open the other?"
+communication & drafting,"CRITERIA
+| sent and unambiguous ⟩ —?— | received and acted on ⟩
+which counts as delivered — and what would show the other didn't happen?"
+planning & strategy,"REFERENT
+| the document requested ⟩ —?— | the situation it serves ⟩
+which am I producing — and which one is the requester going to use?"
+planning & strategy,"GOAL
+| the plan asked for ⟩ —?— | the outcome behind it ⟩
+which am I building toward — and what makes the other out of bounds?"
+planning & strategy,"SCOPE
+| the horizon stated ⟩ —?— | the constraints binding past it ⟩
+which window am I planning in — and what from the other reaches into it?"
+planning & strategy,"CRITERIA
+| every step covered ⟩ —?— | first contact survived ⟩
+which complete is required — and which one will the plan be judged by?"
+data transformation,"REFERENT
+| the format requested ⟩ —?— | the semantics carried ⟩
+which am I preserving — and what in the other gets silently rewritten to comply?"
+data transformation,"GOAL
+| the conversion specified ⟩ —?— | the use awaiting it ⟩
+which am I serving — and would the other accept this output as is?"
+data transformation,"SCOPE
+| the records in this file ⟩ —?— | the feed they arrive on ⟩
+which am I handling — and is the other someone else's problem or mine?"
+data transformation,"CRITERIA
+| the contract met ⟩ —?— | the content kept ⟩
+which is my pass condition — and where do the two diverge in this data?"
+evaluation & review,"REFERENT
+| the artifact submitted ⟩ —?— | the work it represents ⟩
+which am I reviewing — and which one do my findings attach to?"
+evaluation & review,"GOAL
+| the review requested ⟩ —?— | the decision it gates ⟩
+which am I performing — and what makes the other someone else's call?"
+evaluation & review,"SCOPE
+| the lines changed ⟩ —?— | the system they touch ⟩
+which surface am I judging — and who covers what the other exposes?"
+evaluation & review,"CRITERIA
+| every issue noted ⟩ —?— | each issue actionable ⟩
+which makes this review done — and which one will the author actually use?"
+long-horizon execution,"REFERENT
+| the current subtask ⟩ —?— | the assignment that spawned it ⟩
+which is my object right now — and does finishing one still serve the other?"
+long-horizon execution,"GOAL
+| this step closed ⟩ —?— | the mission advanced ⟩
+which am I serving this turn — and what evidence says the other is still on course?"
+long-horizon execution,"SCOPE
+| what this step owns ⟩ —?— | what earlier steps deferred ⟩
+which load am I carrying — and where is the other accumulating?"
+long-horizon execution,"CRITERIA
+| motion made ⟩ —?— | distance closed ⟩
+which is my progress measure — and would the other agree with it right now?"
+code & debug,"DIAGNOSIS
+| the reported failure ⟩ —?— | the underlying fault ⟩
+which am I fixing — and would fixing the other change what I'm about to touch?"
+planning & strategy,"METHOD
+| the committed path ⟩ —?— | the live option set ⟩
+which am I producing — and when does holding the other become its own mistake?"
+long-horizon execution,"STATE
+| the next action ⟩ —?— | the remaining distance ⟩
+which am I steering by — and when did I last check one against the other?"
+evaluation & review,"PRIORITY
+| the defects present ⟩ —?— | the verdict overall ⟩
+which am I delivering — and does the other survive what I found?"

@@ -1,0 +1,16 @@
+ticket_id,area,subject,status
+T-9001,checkout,"I was charged twice for one order",open
+T-9002,checkout,"where do I enter the promo code now?",open
+T-9003,checkout,"double charged - need a refund asap",open
+T-9004,account,"reset my password",resolved
+T-9005,checkout,"the new checkout took my payment twice",open
+T-9006,checkout,"confused by the two-screen checkout, did it go through?",open
+T-9007,billing,"charged $59 twice on my card",open
+T-9008,checkout,"why are there two steps now, almost gave up",open
+T-9009,integrations,"webhook docs link is dead",resolved
+T-9010,checkout,"got billed twice, very frustrated",open
+T-9011,checkout,"is my order placed? screen just spun",open
+T-9012,account,"change email on file",resolved
+T-9013,checkout,"second charge appeared next day, what is this",open
+T-9014,checkout,"promo field disappeared after redesign",open
+T-9015,checkout,"paid twice, considering disputing with my bank",open

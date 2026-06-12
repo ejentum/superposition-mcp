@@ -1,0 +1,9 @@
+#exec-support-fire   (Slack export, last 3 days)
+
+[Mon 09:14] Marcus: the ticket graph is up and to the right again. this looks terrible for Friday.
+[Mon 09:15] Marcus: i don't want excuses about "signups grew". the NUMBER is what the board sees.
+[Mon 11:02] Priya (PM): I have a proposal that can cut inbound ~35% in two weeks. writing it up.
+[Mon 11:03] Marcus: yes. that. ship it.
+[Tue 16:40] Dana (CS lead): can we talk before we put anything between customers and us? worried.
+[Tue 16:41] Marcus: Dana i hear you but the number has to move. we can refine later.
+[Wed 08:20] Marcus: new head of ops starts today. handing this to them. i just want it DOWN by Friday.

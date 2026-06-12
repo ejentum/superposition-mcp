@@ -1,0 +1,23 @@
+{
+  "name": "superposition",
+  "version": "0.1.0",
+  "description": "Open, keyless, heuristic two-pole terrain maps that counter premature collapse in agent reasoning. An agent states three POVs on its task; it gets back one frozen ket-notation map to locate itself on the axis it had collapsed. CSV is the single source of truth; the deployed engine is provably the published code.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Ejentum <info@ejentum.com>",
+  "homepage": "https://ejentum.com",
+  "scripts": {
+    "build": "node build/build.mjs",
+    "test": "node --test"
+  },
+  "files": [
+    "superposition-manifestation-grid.csv",
+    "superposition-mcp-spec.md",
+    "src",
+    "build",
+    "dist",
+    "fixtures",
+    "README.md",
+    "LICENSE"
+  ]
+}

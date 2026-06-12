@@ -1,0 +1,22 @@
+import { test } from "node:test";
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import { dirname, join } from "node:path";
+import { generateBackendCjs } from "../build/generate.mjs";
+
+const here = dirname(fileURLToPath(import.meta.url));
+const dist = join(here, "..", "dist");
+
+// Load-bearing test: the committed deploy artifact must be byte-identical to what
+// the generator produces from the current sources (grid CSV + normalize + selector).
+// If it fails, the published maps/selector and the deployed engine have diverged.
+// Fix by running `npm run build`, never by editing dist/ or a deployed copy by hand.
+test("committed dist/backend.cjs equals the generator output (no drift)", () => {
+  const committed = readFileSync(join(dist, "backend.cjs"), "utf8");
+  assert.equal(
+    generateBackendCjs(),
+    committed,
+    "dist/backend.cjs is stale. Run `npm run build`, copy it to the backend, and redeploy.",
+  );
+});

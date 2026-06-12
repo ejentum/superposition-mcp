@@ -1,0 +1,12 @@
+[
+  { "text": "I need to debug this code and fix the failing test before the call site breaks", "expect_task_type": "code & debug" },
+  { "text": "research and analysis of the sources for this open question and the field it sits in", "expect_task_type": "research & analysis" },
+  { "text": "writing a creative piece, shaping the artifact and the effect on the reader", "expect_task_type": "writing & creative" },
+  { "text": "drafting a communication message and the standing it touches in this thread", "expect_task_type": "communication & drafting" },
+  { "text": "planning the strategy and the roadmap horizon for this outcome", "expect_task_type": "planning & strategy" },
+  { "text": "transform this data into the requested format while keeping the semantics", "expect_task_type": "data transformation" },
+  { "text": "evaluation and review of the submitted artifact and the lines changed", "expect_task_type": "evaluation & review" },
+  { "text": "the capital of france", "expect_matched": false },
+  { "text": "schedule a meeting for tomorrow morning", "expect_matched": false },
+  { "text": "xyzzy plugh frobnicate quux", "expect_matched": false }
+]

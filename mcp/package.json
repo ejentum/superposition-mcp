@@ -1,0 +1,56 @@
+{
+  "name": "superposition-mcp",
+  "version": "0.1.0",
+  "mcpName": "io.github.ejentum/superposition-mcp",
+  "description": "MCP server for Superposition: one keyless tool that returns a two-pole terrain map so your agent can locate which reading of an ambiguous task it has collapsed onto. Calls the public api.ejentum.com/superposition endpoint, or runs the published heuristic fully offline with SUPERPOSITION_LOCAL=1. No API key.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "superposition-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "vendor",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "vendor": "node scripts/vendor.mjs",
+    "prebuild": "node scripts/vendor.mjs",
+    "build": "tsc",
+    "predev": "node scripts/vendor.mjs",
+    "dev": "tsx src/index.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "superposition",
+    "premature-collapse",
+    "metacognition",
+    "ejentum",
+    "agentic-ai"
+  ],
+  "license": "MIT",
+  "author": "Ejentum <info@ejentum.com>",
+  "homepage": "https://ejentum.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejentum/superposition-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ejentum/superposition-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
