@@ -106,6 +106,15 @@ calls the public `api.ejentum.com/superposition` endpoint, or runs the published
 heuristic fully offline with `SUPERPOSITION_LOCAL=1` against a vendored,
 byte-identical copy of the selector and grid. See `mcp/README.md`.
 
+## Python
+
+For Python environments, [`python/superposition.py`](python/superposition.py) is a
+single, zero-dependency, drop-in file (logic + the full grid embedded). No install,
+no network, no Node: `from superposition import superposition`. It is generated from
+the same grid, and a cross-language parity test asserts it picks the byte-identical
+map the JS engine does. In-process and instant, which is the point for a Python agent
+calling it each turn. See [`python/README.md`](python/README.md).
+
 ## Evidence
 
 [`evals/`](evals/) holds a reproducible eval, not a curated demo: a realistic

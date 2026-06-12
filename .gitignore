@@ -3,3 +3,5 @@ mcp/node_modules/
 mcp/dist/
 mcp/vendor/
 *.log
+__pycache__/
+*.pyc
