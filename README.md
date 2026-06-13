@@ -45,6 +45,15 @@ observed collapse instead of a silent premature one.
 
 Superposition hands back the opposite reading of what you are doing as a two-pole tension. Locate which pole you have been serving, find where the two diverge in your specific case, and fold that blind spot into a sharper claim; do not just flip to the other pole. Call it only at a genuine wall you cannot get past on your own, never on a schedule: forcing it every step manufactures fake reframes that read worse than using nothing. (This recipe is what separated the strongest runs from the weakest in our own evaluation.)
 
+## What the evaluation found
+
+From a multi-run benchmark (a small model and a frontier model, 40-turn open-ended reasoning, blind order-swapped judging):
+
+- **Reliable and auditable.** The two-pole axis is returned deterministically; every call re-runs byte-identical, giving a verifiable, model-independent record of which framings the agent weighed. Its strongest property.
+- **Receiver-determined value.** The identical axis was set aside by a weak model and became the pivot of a frontier model's entire investigation. The map does not reframe for you; locating yourself in it does, and only a capable model does that.
+- **Conditional, not automatic.** It helps when you name the pole you have been serving and act on where the two diverge, at a genuine wall. Forced every step it drags the agent deeper into the frame it already holds, and judges worse than using no tool.
+- **Use it as a gated checkpoint, not a wrapper.** It makes the agent's framing legible and contestable at decision points; it is not an always-on reasoning upgrade.
+
 ## How selection works
 
 The selector is a pure, deterministic heuristic over the open CSV
