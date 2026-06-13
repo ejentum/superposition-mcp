@@ -41,6 +41,10 @@ physics convention it strips tonal lean from both poles equally. The question at
 the base is the *measurement*: answering it is the agent performing a deliberate,
 observed collapse instead of a silent premature one.
 
+## How to use the map (the recipe)
+
+Superposition hands back the opposite reading of what you are doing as a two-pole tension. Locate which pole you have been serving, find where the two diverge in your specific case, and fold that blind spot into a sharper claim; do not just flip to the other pole. Call it only at a genuine wall you cannot get past on your own, never on a schedule: forcing it every step manufactures fake reframes that read worse than using nothing. (This recipe is what separated the strongest runs from the weakest in our own evaluation.)
+
 ## How selection works
 
 The selector is a pure, deterministic heuristic over the open CSV
